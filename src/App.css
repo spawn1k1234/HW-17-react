@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: rgb(26, 26, 26);
+}
+:root {
+  display: flex;
+  justify-content: center;
+}
+.tith {
+  font-family: "Poiret One", sans-serif;
+  letter-spacing: 2px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #adadad0e;
+  backdrop-filter: blur(20px);
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.formsform {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.inputform {
+  width: 200px;
+  height: 10px;
+  color: rgb(153, 153, 153);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #85858528;
+  border: solid 1px rgba(255, 255, 255, 0.096);
+  font-family: "Montserrat", sans-serif;
+}
+
+.butad {
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.164);
+  color: rgba(255, 255, 255, 0.589);
+  background-color: #282c3400;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+.butad:hover {
+  background-color: white;
+  color: black;
+}
+/* _ */
+.lilists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(240, 248, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.bitdeleit {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.164);
+  color: rgba(255, 255, 255, 0.589);
+  background-color: #282c3400;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+}
+.bitdeleit:hover {
+  background-color: white;
+  color: black;
+}
